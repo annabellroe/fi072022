@@ -1,5 +1,6 @@
-public class hello {
+public class Hello {
    public static void main(String[] args) {
-      System.out.println("Hello Git!");
+      Gruessen gruessen = new Gruessen("Annabell");
+      gruessen.gruesse();
    }
 }
